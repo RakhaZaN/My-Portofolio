@@ -12,6 +12,10 @@ body {
   font-family: 'Great Vibes', cursive;
 }
 
+#Projects, #About {
+  display: none;
+}
+
 #name {
   font-size: 5rem;
   font-weight: 900;
