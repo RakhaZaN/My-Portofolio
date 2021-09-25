@@ -22,13 +22,14 @@ function resetActive() {
     navAbout.classList.remove('active');
 }
     
-function activeNav() {
-    resetActive();
-    this.classList.add('active');
-}
+// function activeNav() {
+//     resetActive();
+//     this.classList.add('active');
+// }
 
 function activeHome() {
     resetActive();
+    navHome.classList.add('active');
     vHome.style.display = 'block';
     vAbout.style.display = 'none';
     vProjects.style.display = 'none';
@@ -36,6 +37,7 @@ function activeHome() {
 
 function activeProjects() {
     resetActive();
+    navProjects.classList.add('active');
     vHome.style.display = 'none';
     vAbout.style.display = 'none';
     vProjects.style.display = 'block';
@@ -43,6 +45,7 @@ function activeProjects() {
 
 function activeAbout() {
     resetActive();
+    navAbout.classList.add('active');
     vHome.style.display = 'none';
     vAbout.style.display = 'block';
     vProjects.style.display = 'none';
