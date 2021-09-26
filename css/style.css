@@ -51,5 +51,6 @@ li .active {
 @media screen and (max-width: 991px) {
   #name {
     font-size: 3rem;
+    margin-top: 2rem;
   }
 }
