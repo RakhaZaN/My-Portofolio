@@ -12,7 +12,7 @@ body {
   font-family: 'Great Vibes', cursive;
 }
 
-#Home, #Projects {
+#About, #Projects {
   display: none;
 }
 
@@ -36,6 +36,15 @@ a.btn {
 
 li .active {
   color: #ffc107 !important;
+  font-weight: 700;
+}
+
+.content {
+  margin-bottom: 2em;
+}
+
+.content .exp-title {
+  font-size: large;
   font-weight: 700;
 }
 
