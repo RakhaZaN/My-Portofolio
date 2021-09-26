@@ -1,0 +1,30 @@
+/* General */
+
+article p.animate__animated.animate__fadeInUp {
+    animation-duration: 2s;
+    animation-delay: 1500ms;
+}
+
+article a {
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+/* .top-project .my-2 .card {
+    animation: backInUp;
+    animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 3s;
+} */
+
+main#Projects div.row div.my-2 div.card {
+    animation: backInUp;
+    animation-duration: 3s;
+}
+
+/* Mobile */
+@media screen and (max-width: 991px) {
+
+}
