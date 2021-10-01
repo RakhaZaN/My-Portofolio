@@ -16,10 +16,10 @@ body {
   display: none;
 }
 
-#name {
+/* #name {
   font-size: 5rem;
   font-weight: 900;
-}
+} */
 
 article {
   font-size: large;
@@ -49,8 +49,12 @@ li .active {
 }
 
 @media screen and (max-width: 991px) {
-  #name {
-    font-size: 3rem;
+  /* #name {
+    font-size: 1rem;
     margin-top: 2rem;
+  } */
+
+  a.btn {
+    padding: 8px 24px;
   }
 }
